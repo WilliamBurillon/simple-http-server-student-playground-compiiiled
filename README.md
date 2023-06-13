@@ -1,22 +1,22 @@
 # Remise à niveau HTTP
 Dans cet exercice on va revoir les bases de HTTP via un petit jeu de piste sur une API.
 
-Vous allez devoir accéder à plusieurs routes dans un certain ordre, parfois les appels API vous retournerons des informations utile pour passer à la route suivante, a vous de récupérer les informations en fonction des consignes.
+Vous allez devoir accéder à plusieurs routes dans un certain ordre, parfois les appels API vous retournerons des informations utiles pour passer à la route suivante, a vous de récupérer les informations en fonction des consignes.
 
-**Le domaine de l'API est `herokuapp.com` le schéma d'url est `https` et le sous domaine est `m1-mds-web-simple-api-tester`.**
+**Le domaine de l'API est `williamburillon.com` le schéma d'url est `https` et le sous domaine est `http-exercice`.**
 
-Vous pouvez dores et déjà voir des score d'exemple, en accédant à la racine de l'URL d'API. Cette page permet de savoir qui à réussi quels tests pour voir l'avancement de chacun.
+Vous pouvez dores et déjà voir des scores d'exemple, en accédant à la racine de l'URL d'API. Cette page permet de savoir qui a réussi quels tests pour voir l'avancement de chacun.
 
-* Pour réaliser cet exercice, vous pouvez utilisez des outils comme Insomnia ou Postman, mais vous pouvez également réaliser les appels avec du code et un autre langage de programmation au choix.
+* Pour réaliser cet exercice, vous pouvez utiliser des outils comme Insomnia ou Postman, mais vous pouvez également réaliser les appels avec du code et un autre langage de programmation au choix.
 
-* Puis en faisant l'exercice vous validez automatiquement les tests sur le serveur qui sauvegarde votre avancement.
+* Puis en faisant l'exercice, vous validez automatiquement les tests sur le serveur qui sauvegarde votre avancement.
 
 * Essayez de bien comprendre chaque mot et concept qui vous semble flou ou pas compris pour vous. Après cet exercice, j'estime que vous serez à niveau vis à vis du protocole HTTP et donc il pourra y avoir des questions sur cela lors de l'examen final.
 
 ## C'est parti 
-Définissez vous un `Student-Name` que vous devrez passer dans les headers de chacune de vos request à l'API. 
+Définissez-vous un `Student-Name` que vous devrez passer dans les headers de chacune de vos request à l'API. 
 
-* Exemple: `Student-Name: anthony` Prenez en 1 qui vous est propre et qui me permet de savoir qui vous êtes.
+* Exemple : `Student-Name: anthony` Prenez en 1 qui vous est propre et qui me permet de savoir qui vous êtes.
 
 > Tous les chemins des requêtes doivent être préfixés par `/api`
 
